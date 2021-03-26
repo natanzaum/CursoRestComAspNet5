@@ -1,0 +1,5 @@
+dotnet new sln -o RestWithASPNET5 => Cria a solução
+dotnet new webapi -o RestWithASPNET5 => Cria o projeto na template webapi
+dotnet sln add ./RestWithASPNET5/RestWithASPNET5.csproj => Adiciona arquivo do .csproject a .sln
+dotnet run --project RestWithASPNET5/RestWithASPNET5.csproj => Inicia a API
+
